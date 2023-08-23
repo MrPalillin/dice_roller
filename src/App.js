@@ -77,12 +77,14 @@ function DiceForm({ dices, setDices, formulaValidation, setFormulaValidation, ro
       return;
     }
 
-    const regex_formula = /[0-9]+[dD][0-9]+|[+-]|[0-9]/g;
+    const regex_formula = /(\d+)d(\d+)|[+-]|(\d)/ig;
+    const not_start_and_end_symbol = /^[-+]|[+-]$/g
+    const not_multiple_signs = /[-+]{2,}/g
     const corrected_formula = dices.match(regex_formula).join("");
 
     setFormulaValidation(dices !== corrected_formula);
 
-    if (dices !== corrected_formula) {
+    if (dices !== corrected_formula || not_start_and_end_symbol.test(dices) || not_multiple_signs.test(dices)) {
       setFormulaValidation(true);
       handleShow();
       return;
@@ -320,10 +322,7 @@ function DiceSum({ rolls }) {
 
 export default App;
 
-//Arreglar formula de validación (permite suma y resta al principio y final, algo que no debería, así como múltiples signos seguidos)
-//Permitir en la validación un espacio en blanco entre valores literales o entre dados, pero no dentro de estos
 //Hacer añadido de dados por template mas dinámico:
 //  -Si coincide el tipo de dado con el último de la fórmula, suma un dado a esa última parte (2d6 => 3d6)
 //  -En caso contrario, añadir un nuevo dado a la fórmula, con un símobolo de suma por delante si ya hay elementos en el input, o sin símbolo de suma si el input está vacio
 //Hacer que al añadir un dado mediante el template, muestre un modal pidiendo el número de dados a meter, y con ese resultado meterlos en el input tal y como se describe arriba
-//Correción menor cuando la tirada tiene mas de un dígito (se desvía ligeramente hacia la derecha)
