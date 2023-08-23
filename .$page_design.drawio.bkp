@@ -1,0 +1,134 @@
+<mxfile host="Electron" modified="2023-08-19T15:47:45.500Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="qthkeTa2XetOjto3Nxdr" version="21.6.8" type="device">
+  <diagram name="Página-1" id="3Nx4jy9LmF50stxu7ggF">
+    <mxGraphModel dx="2261" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="100" width="470" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="LlZ0AeaIowcg0YiEzKo0-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="190" width="450" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-2" value="Dice roller online" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="120" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-3" value="Dice formula" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="200" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-4" value="Roll button" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="200" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-5" value="Dice selector" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="250" width="430" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-6" value="Dice results" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="310" width="430" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-7" value="Dice values" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="490" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-8" value="Dice sum" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_k2q_Eyfdypq76y8_jf6-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="101" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-9" value="&lt;div&gt;App&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" parent="1" vertex="1">
+          <mxGeometry x="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_k2q_Eyfdypq76y8_jf6-10" target="_k2q_Eyfdypq76y8_jf6-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-10" value="AppTitle" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" parent="1" vertex="1">
+          <mxGeometry x="650" y="135" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_k2q_Eyfdypq76y8_jf6-13" target="_k2q_Eyfdypq76y8_jf6-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-13" value="DiceSelector" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" parent="1" vertex="1">
+          <mxGeometry x="635" y="260" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-14" value="d2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="260" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-15" value="d3" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="260" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-16" value="d4" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="260" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-17" value="d6" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="260" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-18" value="&lt;div&gt;Dice selector has the following dices:&lt;/div&gt;&lt;div&gt;D2&lt;/div&gt;&lt;div&gt;D3&lt;/div&gt;&lt;div&gt;D4&lt;/div&gt;&lt;div&gt;D6&lt;/div&gt;&lt;div&gt;D8&lt;/div&gt;&lt;div&gt;D10&lt;/div&gt;&lt;div&gt;D12&lt;/div&gt;&lt;div&gt;D20&lt;/div&gt;&lt;div&gt;D100&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="740" y="305" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_k2q_Eyfdypq76y8_jf6-20" target="_k2q_Eyfdypq76y8_jf6-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-20" value="DiceTemplate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" parent="1" vertex="1">
+          <mxGeometry x="-135" y="260" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_k2q_Eyfdypq76y8_jf6-21" target="_k2q_Eyfdypq76y8_jf6-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-21" value="DiceDisplayResults" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" parent="1" vertex="1">
+          <mxGeometry x="620" y="380" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-22" value="X" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="330" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-23" value="X" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="330" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-24" value="X" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="330" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_k2q_Eyfdypq76y8_jf6-25" target="_k2q_Eyfdypq76y8_jf6-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-25" value="DiceResult" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" parent="1" vertex="1">
+          <mxGeometry x="-120" y="335" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_k2q_Eyfdypq76y8_jf6-26" target="_k2q_Eyfdypq76y8_jf6-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-26" value="DiceResolve" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" parent="1" vertex="1">
+          <mxGeometry x="-135" y="505" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_k2q_Eyfdypq76y8_jf6-27" target="_k2q_Eyfdypq76y8_jf6-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-27" value="DiceSum" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" parent="1" vertex="1">
+          <mxGeometry x="650" y="505" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-28" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;State Values:&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Dice formula (String)&lt;br&gt;&lt;/div&gt;&lt;div&gt;Roll (Array of JSON), with each value: Dice Type[d2,d3,d4,d6,d8,d10,d12,d20,d100], image(img declared based on dice type), and result [1..max_dice]&lt;/div&gt;&lt;div&gt;FormulaValidation (boolean)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-75" y="620" width="625" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-29" value="&lt;div&gt;Dices =&amp;gt; App&lt;/div&gt;&lt;div&gt;Rolls =&amp;gt; App&lt;br&gt;&lt;/div&gt;&lt;div&gt;FormulaValidation =&amp;gt; App&lt;/div&gt;&lt;div&gt;So accessible to all components&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="550" y="611" width="310" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-40" value="Dice selector: When clicking one of the dice, add the corresponding value to the formula, stacking it with the correct dice type. Allow positive and negative integer alongside the dice" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="740" y="30" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_k2q_Eyfdypq76y8_jf6-43" value="&lt;div&gt;When rolling, first check if its correctly formatted. If not, show modal with error message, indicating where the formula failed.&lt;/div&gt;&lt;div&gt;Otherwise, convert formula in dices and fixed values (not a state variable), show dice rolls on Dice Results and Dice Values. Show sum of everything in Dice Sum&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="827" y="510" width="330" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LlZ0AeaIowcg0YiEzKo0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LlZ0AeaIowcg0YiEzKo0-3" target="LlZ0AeaIowcg0YiEzKo0-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LlZ0AeaIowcg0YiEzKo0-3" value="DiceForm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" parent="1" vertex="1">
+          <mxGeometry x="-120" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
